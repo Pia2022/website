@@ -1,0 +1,63 @@
+.section2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 1770px;
+    height: 685px;
+    left: 0px;
+    top: 0px;
+    background: url(Rectangle.png);
+}
+
+.why-choose-us {
+    width: 288px;
+    height: 26px;
+    left: 330px;
+    top: 212px;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.section2-text {
+    width: 560px;
+    height: 158px;
+    left: 330px;
+    top: 288px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;    
+    display: flex;
+    align-items: center;
+    letter-spacing: 1.6px;
+}
+
+.btn-explore-places {
+    width: 228px;
+    height: 63px;
+    left: 328px;
+    top: 491px;
+}
+
+.img-cottage {
+    width: 350px;
+    height: 220px;
+    top: 953px;
+    left: 1015px;
+  }
+
+.img-nature {
+    width: 350px;
+    height: 220px;
+    top: 1183px;
+    left: 1105px;
+}
