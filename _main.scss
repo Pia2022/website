@@ -61,3 +61,95 @@
     top: 1183px;
     left: 1105px;
 }
+
+.section3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 228px;
+    max-width: 1770px;
+    height: 700px;
+    left: 0px;
+    top: 0px;
+}
+
+.grand-spain {
+    width: 543px;
+    height: 374px;
+    left: 328px;
+    top: 227px;
+    background: #232323;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+}
+
+.section3-minitext {
+    width: 80px;
+    height: 26px;
+    left: 360px;
+    top: 276px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1.5px;
+    color: #E8E8E8;
+}
+
+.section3-title {
+    width: 241px;
+    height: 26px;
+    left: 360px;
+    top: 325px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.section3-text {
+    width: 508px;
+    height: 78px;
+    left: 360px;
+    top: 364px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #E8E8E8;
+}
+
+.btn-book-now {
+    width: 228px;
+    height: 63px;
+    left: 0px;
+    top: 0px;
+    background: #5474FD;
+    width: 130px;
+    height: 26px;
+    left: 64px;
+    top: 21px;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
