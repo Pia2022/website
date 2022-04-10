@@ -1,12 +1,22 @@
+.body {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
 .header {
-    width: 1773px;
+    max-width: 1773px;
+    width: 100%;
     height: 821px;
     top: 15px;
-    left: 13px
+    left: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .main-title {
-    width: 342px;
+    max-width: 342px;
     height: 26px;
     top: 13px;
     left: 15px;
@@ -25,7 +35,7 @@
 }
 
 .main-text {
-    width: 345px;
+    max-width: 345px;
     height: 26px;
     left: 13px;
     top: 50px;
@@ -43,14 +53,14 @@
 }
 
 .search-bar {
-    width: 653px;
+    max-width: 653px;
     height: 63px;
     left: 560px;
     top: 389px;
 }
 
 .sydt {
-    width:503px;
+    max-width:503px;
     height: 63px;
     left: 0px;
     top: 0px;
@@ -58,7 +68,7 @@
 }
 
 .sydt-text {
-    width: 277px;
+    max-width: 277px;
     height: 26px;
     left: 113px;
     top: 19px;
@@ -85,11 +95,11 @@
 }
 
 .search-text {
-    width: 92px;
+    max-width: 92px;
     height: 26px;
     left: 523px;
     top: 21px;
-    font-family: 'Aleo';
+    font-family: 'Aleo', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -104,7 +114,7 @@
 }
 
 .combine-search {
-    width: 22px;
+    max-width: 22px;
     height: 24px;
     left: 614px;
     top: 21px;
@@ -112,14 +122,14 @@
 }
 
 .scroll-down {
-    width: 108px;
+    max-width: 108px;
     height: 46px;
     left: 805px;
     top: 560px;
 }
 
 .scroll-text {
-    width: 123px;
+    max-width: 123px;
     height: 26px;
     left: -8px;
     top: -1px;
@@ -137,16 +147,9 @@
 }
 
 .arrow {
-    width: 17px;
+    max-width: 17px;
     height: 11px;
     left: 45px;
     top: 25px;
     background: #FFFFFF;
-}
-
-.menu {
-    width: 525px;
-    height: 12px;
-    left: 917px;
-    top: 774px;
 }
